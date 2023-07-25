@@ -1,0 +1,3931 @@
+apiVersion: v1
+entries:
+  Posthog:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-07-06T10:07:34.82574209Z"
+    description: Helm chart to deploy posthog reverse proxy.
+    digest: 3dda3a2bb97c4b5449fc0034d4d9d2fdaab399a84824b9097ec8c84ac210d3e2
+    maintainers:
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: Posthog
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/Posthog-0.10.0/Posthog-0.10.0.tgz
+    version: 0.10.0
+  argo-workflow:
+  - apiVersion: v1
+    created: "2023-04-19T07:26:57.036527787Z"
+    description: Chart to deploy argo-workflow
+    digest: fcfaee0ab2a5de55d1ce05b7ca4bc509a7b69f9751c3798bcce66b88a4987ea1
+    maintainers:
+    - email: pawan@devtron.ai
+      name: Pawan
+    name: argo-workflow
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argo-workflow-0.1.4/argo-workflow-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    created: "2023-03-15T08:41:40.731968626Z"
+    description: Chart to deploy argo-workflow
+    digest: 2ee7460ac9692043e7908ea92f342fddb549ecec6d804d6070de5abe9fd69fd3
+    maintainers:
+    - email: pawan@devtron.ai
+      name: Pawan
+    name: argo-workflow
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argo-workflow-0.1.3/argo-workflow-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    created: "2022-05-26T09:42:59.909542999Z"
+    description: Chart to deploy argo-workflow
+    digest: d2768fdf29ee22af0052b493b77d4b2a39b3779a19a2891ea19e747e817c8291
+    maintainers:
+    - email: pawan@devtron.ai
+      name: Pawan
+    name: argo-workflow
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argo-workflow-0.1.2/argo-workflow-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    created: "2022-03-31T05:47:42.9421015Z"
+    description: Chart to deploy argo-workflow
+    digest: b8f291b53c7e712d54db0cde805aaf634b95d48c6bd0cc65a3327a1f61a30e4e
+    maintainers:
+    - email: pawan@devtron.ai
+      name: Pawan
+    name: argo-workflow
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argo-workflow-0.1.1/argo-workflow-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    created: "2021-10-18T12:37:18.582567721Z"
+    description: Chart to deploy argo-workflow
+    digest: 8d3df9c1cf514e7906a3234dbb3b124a7b61d5007928d5cf8eea1238b60fced6
+    maintainers:
+    - email: pawan@devtron.ai
+      name: Pawan
+    name: argo-workflow
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argo-workflow-0.1.0/argo-workflow-0.1.0.tgz
+    version: 0.1.0
+  argocd:
+  - apiVersion: v1
+    appVersion: 1.8.1
+    created: "2021-06-10T10:27:25.848730254Z"
+    description: Chart to deploy ACD
+    digest: f1eb864c450f86ca6fda0d067f4d1a56b2a052657a358dfd83b553b7142a7995
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: argocd
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argocd-1.8.1/argocd-1.8.1.tgz
+    version: 1.8.1
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-06-10T09:27:50.737983506Z"
+    description: Chart to deploy ACD
+    digest: d80374cc2932add636521adb0a97b23893b705df18ab99f9ef43c43e2ec5ede8
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: argocd
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argocd-0.10.0/argocd-0.10.0.tgz
+    version: 0.10.0
+  argocd-certificate-refresh:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-09-10T06:15:38.221355737Z"
+    description: Helm chart to deploy argocd certificate refresh CronJob.
+    digest: 9d9b94684343e6203b4b189c5c566e2f5ef4f8279ac62b42c8a1426ae94c4f39
+    maintainers:
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: argocd-certificate-refresh
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argocd-certificate-refresh-0.10.4/argocd-certificate-refresh-0.10.4.tgz
+    version: 0.10.4
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-09-09T09:20:37.969852631Z"
+    description: Helm chart to deploy argocd certificate refresh CronJob.
+    digest: 309ea4b056d1b4b345a567cd0cafeeeb567803d9e79a77392dab6401864f93f7
+    maintainers:
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: argocd-certificate-refresh
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argocd-certificate-refresh-0.10.3/argocd-certificate-refresh-0.10.3.tgz
+    version: 0.10.3
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-06-23T06:16:01.782351047Z"
+    description: Helm chart to deploy argocd certificate CronJob.
+    digest: 425ad4c5b277a87c2983b0a453efab01c11a0992c969f9e91134c272de18db1a
+    maintainers:
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: argocd-certificate-refresh
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argocd-certificate-refresh-0.10.1/argocd-certificate-refresh-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-06-20T08:22:56.274541627Z"
+    description: Helm chart to deploy argocd certificate CronJob.
+    digest: 40d393f4018b77086ce9b4e103c17ecf51ed3711223d2d8df8a572a80a7f76a9
+    maintainers:
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: argocd-certificate-refresh
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/argocd-certificate-refresh-0.10.0/argocd-certificate-refresh-0.10.0.tgz
+    version: 0.10.0
+  aws-ssm-agent-installer:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-01-31T06:26:52.428198818Z"
+    description: Chart to enable AWS SSM Agent on EKS nodes
+    digest: ba54a7cb211ba5e3acdf94000e674a88bc965a69b1882fa2018f6f7ae9001353
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: aws-ssm-agent-installer
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/aws-ssm-agent-installer-0.10.4/aws-ssm-agent-installer-0.10.4.tgz
+    version: 0.10.4
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-02-04T05:39:57.686190177Z"
+    description: Chart to enable AWS SSM Agent on EKS nodes
+    digest: 660ffbc6593071fd1651a6ea97a8b935ee2ce3d89cc8bc23d6ab0e1fcf0222a3
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: aws-ssm-agent-installer
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/aws-ssm-agent-installer-0.10.3/aws-ssm-agent-installer-0.10.3.tgz
+    version: 0.10.3
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-05-13T18:51:58.61826547Z"
+    description: Chart to enable AWS SSM Agent on EKS nodes
+    digest: d02c19c75afc1ae27ddb6735f457396dd7bc113525a05f4f70dde5b08f2db5ae
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: aws-ssm-agent-installer
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/aws-ssm-agent-installer-0.10.2/aws-ssm-agent-installer-0.10.2.tgz
+    version: 0.10.2
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-05-05T05:07:13.421457877Z"
+    description: Chart to enable AWS SSM Agent on EKS nodes
+    digest: 0f0cb280287a1a159d9a427959f5c5bb954de35fa0dc48f9a7477b44bff1e171
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: aws-ssm-agent-installer
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/aws-ssm-agent-installer-0.10.1/aws-ssm-agent-installer-0.10.1.tgz
+    version: 0.10.1
+  caddy-reverse-proxy:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-07-06T11:09:21.039209906Z"
+    description: Helm chart to deploy caddy reverse proxy.
+    digest: 12973a190dba3dea723ba579b8df035f2021edd9ebe7173f48800214322eea89
+    maintainers:
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: caddy-reverse-proxy
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/caddy-reverse-proxy-0.10.1/caddy-reverse-proxy-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-07-06T10:20:49.307535874Z"
+    description: Helm chart to deploy posthog reverse proxy.
+    digest: aef1f797594b8243ae7a837f7821a30856885a8714e34bd04d1d57d05c364e51
+    maintainers:
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: caddy-reverse-proxy
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/caddy-reverse-proxy-0.10.0/caddy-reverse-proxy-0.10.0.tgz
+    version: 0.10.0
+  calico:
+  - apiVersion: v1
+    created: "2021-09-02T12:15:58.21954746Z"
+    description: Chart to deploy calico networking
+    digest: 3b06c9a646ae10132a07af83dde5957157f0cfbec649eb83d7326574bf70acc0
+    name: calico
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/calico-0.1.1/calico-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    created: "2021-09-02T11:10:08.016899492Z"
+    description: Chart to deploy calico networking
+    digest: 5a4183fa3447ab46aef56d1e46a414199d8ad732fff1f37061673d1110371ec8
+    name: calico
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/calico-0.1.0/calico-0.1.0.tgz
+    version: 0.1.0
+  clair:
+  - apiVersion: v1
+    appVersion: 3.0.0-pre
+    created: "2023-05-04T09:51:09.795177591Z"
+    description: Clair is an open source project for the static analysis of vulnerabilities
+      in application containers.
+    digest: e0ec73bf6696fabdbd8f27316c7c865d1a43a638dfdaa917b70e5bf9cb2ad7db
+    home: https://coreos.com/clair
+    icon: https://cloud.githubusercontent.com/assets/343539/21630811/c5081e5c-d202-11e6-92eb-919d5999c77a.png
+    maintainers:
+    - email: jimmy.zelinskie@coreos.com
+      name: Jimmy Zelinskie
+    - email: pawan.mehta@devtron.ai
+      name: Pawan Kumar
+    name: clair
+    sources:
+    - https://github.com/coreos/clair
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/clair-0.1.10/clair-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v1
+    appVersion: 3.0.0-pre
+    created: "2022-11-30T13:32:38.10816037Z"
+    description: Clair is an open source project for the static analysis of vulnerabilities
+      in application containers.
+    digest: 1024ec3278860f860151246f5391a4b503a1d5672084f001565695b41e4bfc9c
+    home: https://coreos.com/clair
+    icon: https://cloud.githubusercontent.com/assets/343539/21630811/c5081e5c-d202-11e6-92eb-919d5999c77a.png
+    maintainers:
+    - email: jimmy.zelinskie@coreos.com
+      name: Jimmy Zelinskie
+    - email: pawan.mehta@devtron.ai
+      name: Pawan Kumar
+    name: clair
+    sources:
+    - https://github.com/coreos/clair
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/clair-0.1.9/clair-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v1
+    appVersion: 3.0.0-pre
+    created: "2022-11-05T12:50:24.048272262Z"
+    description: Clair is an open source project for the static analysis of vulnerabilities
+      in application containers.
+    digest: 746d1a600828c15457169d25c143d2573f127fc40e8bc9287575f164d7ec05d1
+    home: https://coreos.com/clair
+    icon: https://cloud.githubusercontent.com/assets/343539/21630811/c5081e5c-d202-11e6-92eb-919d5999c77a.png
+    maintainers:
+    - email: jimmy.zelinskie@coreos.com
+      name: Jimmy Zelinskie
+    - email: pawan.mehta@devtron.ai
+      name: Pawan Kumar
+    name: clair
+    sources:
+    - https://github.com/coreos/clair
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/clair-0.1.8/clair-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v1
+    appVersion: 3.0.0-pre
+    created: "2022-10-13T09:36:23.221064796Z"
+    description: Clair is an open source project for the static analysis of vulnerabilities
+      in application containers.
+    digest: c675dfe2e55294fd5a58425c3937debff77a56a71b00fb4aa0d7e01e6223c360
+    home: https://coreos.com/clair
+    icon: https://cloud.githubusercontent.com/assets/343539/21630811/c5081e5c-d202-11e6-92eb-919d5999c77a.png
+    maintainers:
+    - email: jimmy.zelinskie@coreos.com
+      name: Jimmy Zelinskie
+    - email: pawan.mehta@devtron.ai
+      name: Pawan Kumar
+    name: clair
+    sources:
+    - https://github.com/coreos/clair
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/clair-0.1.7/clair-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    appVersion: 3.0.0-pre
+    created: "2022-09-24T12:39:50.445638632Z"
+    description: Clair is an open source project for the static analysis of vulnerabilities
+      in application containers.
+    digest: 85883fc0e07bb2fe819ad8da904770ed4f530b723bc9d0ba4a39f1c0a5d5db04
+    home: https://coreos.com/clair
+    icon: https://cloud.githubusercontent.com/assets/343539/21630811/c5081e5c-d202-11e6-92eb-919d5999c77a.png
+    maintainers:
+    - email: jimmy.zelinskie@coreos.com
+      name: Jimmy Zelinskie
+    - email: pawan.mehta@devtron.ai
+      name: Pawan Kumar
+    name: clair
+    sources:
+    - https://github.com/coreos/clair
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/clair-0.1.6/clair-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: 3.0.0-pre
+    created: "2022-05-06T12:57:17.441451194Z"
+    description: Clair is an open source project for the static analysis of vulnerabilities
+      in application containers.
+    digest: d65c744236ecb1f3dabe00dda5605e6f6725315a20d60bc3aa79947407aa9950
+    home: https://coreos.com/clair
+    icon: https://cloud.githubusercontent.com/assets/343539/21630811/c5081e5c-d202-11e6-92eb-919d5999c77a.png
+    maintainers:
+    - email: jimmy.zelinskie@coreos.com
+      name: Jimmy Zelinskie
+    name: clair
+    sources:
+    - https://github.com/coreos/clair
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/clair-0.1.5/clair-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: 3.0.0-pre
+    created: "2022-05-05T08:32:28.347210969Z"
+    description: Clair is an open source project for the static analysis of vulnerabilities
+      in application containers.
+    digest: 3e768c419402dadb7c719f97193e20723647016e8f1fa926cc047ae2b4466c29
+    home: https://coreos.com/clair
+    icon: https://cloud.githubusercontent.com/assets/343539/21630811/c5081e5c-d202-11e6-92eb-919d5999c77a.png
+    maintainers:
+    - email: jimmy.zelinskie@coreos.com
+      name: Jimmy Zelinskie
+    name: clair
+    sources:
+    - https://github.com/coreos/clair
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/clair-0.1.4/clair-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: 3.0.0-pre
+    created: "2021-08-05T15:10:50.446689161Z"
+    description: Clair is an open source project for the static analysis of vulnerabilities
+      in application containers.
+    digest: 0ff5e661c563bea98d22e9a05466ff6fc1353365809afd9e09ea6e8dc6d1fe28
+    home: https://coreos.com/clair
+    icon: https://cloud.githubusercontent.com/assets/343539/21630811/c5081e5c-d202-11e6-92eb-919d5999c77a.png
+    maintainers:
+    - email: jimmy.zelinskie@coreos.com
+      name: Jimmy Zelinskie
+    name: clair
+    sources:
+    - https://github.com/coreos/clair
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/clair-0.1.3/clair-0.1.3.tgz
+    version: 0.1.3
+  cluster-essentials:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2021-12-06T15:56:41.915768611Z"
+    dependencies:
+    - condition: metrics-server.enabled
+      name: metrics-server
+      repository: https://kubernetes-sigs.github.io/metrics-server/
+      version: 3.x.x
+    - condition: cluster-autoscaler.enabled
+      name: cluster-autoscaler
+      repository: https://kubernetes.github.io/autoscaler
+      version: 9.x.x
+    - condition: rollout.enabled
+      name: rollout
+      repository: https://helm.devtron.ai
+      version: 0.13.*
+    - condition: keda.enabled
+      name: keda
+      repository: https://kedacore.github.io/charts
+      version: 2.5.*
+    - condition: kube-prometheus-stack.enabled
+      name: kube-prometheus-stack
+      repository: https://helm.devtron.ai
+      version: 19.x.x
+    - condition: kubernetes-event-exporter.enabled
+      name: kubernetes-event-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.2.*
+    - condition: aws-load-balancer-controller.enabled
+      name: aws-load-balancer-controller
+      repository: https://aws.github.io/eks-charts
+      version: 1.3.*
+    description: A Helm chart for Kubernetes which deploys most of the cluster essentials
+      needed by any cluster
+    digest: 089c7c4673b56c9da0254e3f582283639dbdfcee00d20092569527c54a4f16ac
+    icon: https://raw.githubusercontent.com/dheeth/helm-charts/master/assets/cluster-essentials.jpeg
+    name: cluster-essentials
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/kubernetes-sigs/metrics-server
+    - https://github.com/kubernetes/autoscaler
+    - https://github.com/devtron-labs/charts
+    - https://github.com/kedacore/charts
+    - https://github.com/aws/eks-charts
+    - https://github.com/bitnami/charts/tree/master/bitnami
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/cluster-essentials-0.1.1/cluster-essentials-0.1.1.tgz
+    version: 0.1.1
+  coralogix-fluentd:
+  - apiVersion: v1
+    appVersion: 1.1.6
+    created: "2021-02-18T12:28:54.738012862Z"
+    description: Modificated version of official FluentD image with support of integration
+      with Coralogix service.
+    digest: 63b08be5be930b336432ed616b91cfd82a6eb3c855f26e6dcd5147776a6509c3
+    home: https://coralogix.com/
+    icon: https://coralogix.com/wp-content/uploads/2016/12/logos_yjmwij-2.png
+    keywords:
+    - FluentD
+    - logging
+    - Coralogix
+    maintainers:
+    - email: eldar@coralogix.com
+      name: Eldar Aliiev
+      url: https://www.facebook.com/e.aliiev
+    name: coralogix-fluentd
+    sources:
+    - https://github.com/coralogix/fluentd-coralogix-image/examples/helm
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/coralogix-fluentd-1.0.3/coralogix-fluentd-1.0.3.tgz
+    version: 1.0.3
+  devtron-backups:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-01-31T09:33:18.411469508Z"
+    description: A Helm chart for Devtron Backups
+    digest: 1deceee12f28e2cbda430f05b9c0439dfcc6d99404ef16c2cd596102a349b581
+    name: devtron-backups
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-backups-0.1.3/devtron-backups-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-09-06T07:02:42.334753072Z"
+    description: A Helm chart for Devtron Backups
+    digest: 3160c2553cc4d94deda77dd4b6002b7f10cda35b0da014fad0bf9a48154264d3
+    name: devtron-backups
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-backups-0.1.2/devtron-backups-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-08-25T12:29:23.715797772Z"
+    description: A Helm chart for Devtron Backups
+    digest: 84edd2b9cb11ba1a912bab0ef02fab45a75d2bb2fc84d24dedba9ac6b93039da
+    name: devtron-backups
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-backups-0.1.1/devtron-backups-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-02-08T13:00:53.295332897Z"
+    description: A Helm chart for Devtron Backups
+    digest: 473e949fcf1405db8f98895467935605526e98bef12984c2cfbdf5f464e15cc6
+    name: devtron-backups
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-backups-0.1.0/devtron-backups-0.1.0.tgz
+    version: 0.1.0
+  devtron-generic-helm:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-06-02T18:45:07.491716593Z"
+    description: Chart to deploy any YAML file
+    digest: d7ccbf00fb7bc529724f6ea7b41a8fe053cdc0573ef27eaa886c5d8f07251691
+    maintainers:
+    - email: prashant@devtron.ai
+      name: Prashant
+    name: devtron-generic-helm
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-generic-helm-0.10.1/devtron-generic-helm-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-02-18T12:36:24.327919838Z"
+    description: Chart to deploy any YAML file
+    digest: 8aaf248878607072c87faf52958d50feaa3c4ffebf2b4103a8a7473095609c31
+    maintainers:
+    - email: prashant@devtron.ai
+      name: Prashant
+    name: devtron-generic-helm
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-generic-helm-0.10.0/devtron-generic-helm-0.10.0.tgz
+    version: 0.10.0
+  devtron-in-clustercd:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-04-26T12:09:54.631800238Z"
+    description: Helm chart to deploy devtron-in-clustercd to run pre and post deployment
+      in application/target cluster.
+    digest: c7cca9905db9e1c03bce91015fa59f6f5f559a573458dabb7d66f7f795324945
+    maintainers:
+    - email: devops@devtron.ai
+      name: Devtron Devops Team
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: devtron-in-clustercd
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-in-clustercd-0.10.0/devtron-in-clustercd-0.10.0.tgz
+    version: 0.10.0
+  devtron-logs-dump:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-06-07T11:05:50.130649367Z"
+    description: Chart to extract devtron stack logs
+    digest: c1243cb779d83a404687e3922acdc598b734b3e7dacc17c15b1fc6064f874e9c
+    name: devtron-logs-dump
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-logs-dump-0.1.0/devtron-logs-dump-0.1.0.tgz
+    version: 0.1.0
+  devtron-operator:
+  - apiVersion: v2
+    appVersion: 0.6.19
+    created: "2023-07-17T08:28:36.235015126Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.9.1
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: c9f7654be57c396591840f54a1f51ea19786b0758c1cf565fd22afb2b786726b
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.58/devtron-operator-0.22.58.tgz
+    version: 0.22.58
+  - apiVersion: v2
+    appVersion: 0.6.18
+    created: "2023-07-10T07:41:01.981991018Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.9.1
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 2e76690e86af258ff3253fba448fdbaca30d689d8d37dccbd32cd4d7e0c27658
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.57/devtron-operator-0.22.57.tgz
+    version: 0.22.57
+  - apiVersion: v2
+    appVersion: 0.6.17
+    created: "2023-06-01T11:30:56.942118622Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.9.1
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: ce9788769cc38cc41fcecdea2f14107acb38c1b4f5be68df9a787c6124eccd62
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.56/devtron-operator-0.22.56.tgz
+    version: 0.22.56
+  - apiVersion: v2
+    appVersion: 0.6.16
+    created: "2023-05-28T17:29:08.598082923Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.9.1
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 358363c367d1217ca348c72d63aef44563c9c88cc7190773777a9018e8f5dd42
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.55/devtron-operator-0.22.55.tgz
+    version: 0.22.55
+  - apiVersion: v2
+    appVersion: 0.6.16
+    created: "2023-05-24T08:46:06.649839696Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.9.1
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 43ef97598d72b6909025da51ddd5ccca2543237d202e70f2f5b9fbf83fe6856b
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.54/devtron-operator-0.22.54.tgz
+    version: 0.22.54
+  - apiVersion: v2
+    appVersion: 0.6.15
+    created: "2023-04-12T00:46:33.732413371Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.9.1
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 25e641ae4bfdc143bd51efac0f2bf5f14f268f35ad71784d2b2114660ccae031
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.53/devtron-operator-0.22.53.tgz
+    version: 0.22.53
+  - apiVersion: v2
+    appVersion: 0.6.14
+    created: "2023-03-28T09:55:27.902786395Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.9.1
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: bc00ac7633b444baafa932652c542ea5cdcfb76b156ce216c5edf86fe5525f37
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.52/devtron-operator-0.22.52.tgz
+    version: 0.22.52
+  - apiVersion: v2
+    appVersion: 0.6.13
+    created: "2023-02-28T15:29:39.727535564Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.9.1
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: fa9020f27c166d2be4a9b81b7078e3f9abd88c692d1e3fef9108ffbf54205d09
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.51/devtron-operator-0.22.51.tgz
+    version: 0.22.51
+  - apiVersion: v2
+    appVersion: 0.6.12
+    created: "2023-02-28T07:39:05.017667227Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.9.1
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: aebde8509216e91b5351c285e16bc7d1632f78d7b46356c7daf893e84551d37f
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.50/devtron-operator-0.22.50.tgz
+    version: 0.22.50
+  - apiVersion: v2
+    appVersion: 0.6.11
+    created: "2023-01-31T14:19:25.666398358Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: bf35bc5b5db55fa775be98daee3da9876d8b428c44cb5400a8c1848714c14a88
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.49/devtron-operator-0.22.49.tgz
+    version: 0.22.49
+  - apiVersion: v2
+    appVersion: 0.6.10
+    created: "2023-01-09T14:43:31.878028408Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: f720be37a9f2ba9df60d9695e18fe1158224960aff9ca2baf5e6f7841cfcf9e6
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.48/devtron-operator-0.22.48.tgz
+    version: 0.22.48
+  - apiVersion: v2
+    appVersion: 0.6.9
+    created: "2022-12-15T08:02:19.493536397Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 5dd6b4808153d21378521758aaf5ac12eeff0393df664f6cf27e4074c8d752ae
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.47/devtron-operator-0.22.47.tgz
+    version: 0.22.47
+  - apiVersion: v2
+    appVersion: 0.6.9
+    created: "2022-12-14T13:56:24.288984926Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 7321c78e6171dbcf6d97079fb9d2add36762e09002e02649f34630d07d5c3a30
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.46/devtron-operator-0.22.46.tgz
+    version: 0.22.46
+  - apiVersion: v2
+    appVersion: 0.6.8
+    created: "2022-11-26T04:38:49.010220038Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: d38782f4c07e93985026e9aaf358bb5211bee01a2bb73e57ceb58fada6df31ed
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.45/devtron-operator-0.22.45.tgz
+    version: 0.22.45
+  - apiVersion: v2
+    appVersion: 0.6.7
+    created: "2022-11-24T12:28:08.576164297Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: d4640dd55abf78307d96459fdcd8b98ebc93813011931a4db965efc8f75c038c
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.44/devtron-operator-0.22.44.tgz
+    version: 0.22.44
+  - apiVersion: v2
+    appVersion: 0.6.7
+    created: "2022-11-23T16:11:02.597819004Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: f72e70f171e27d175051aa2c11b5f06d1546f16108cd6130a5f3e7fdcd3d4f9f
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.43/devtron-operator-0.22.43.tgz
+    version: 0.22.43
+  - apiVersion: v2
+    appVersion: 0.6.6
+    created: "2022-11-10T18:25:14.751800254Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 1c28e61c162ff9981e8cbcbe726a9ce96f2c2c63f742ec91636a206e34a3f4a8
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.42/devtron-operator-0.22.42.tgz
+    version: 0.22.42
+  - apiVersion: v2
+    appVersion: 0.6.5
+    created: "2022-11-03T15:06:46.649179975Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 9476fbbd6e4e8d36a9678d229cd523422faa529f8a5e7136779caabe915c1352
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.41/devtron-operator-0.22.41.tgz
+    version: 0.22.41
+  - apiVersion: v2
+    appVersion: 0.6.4
+    created: "2022-11-01T13:33:33.077152125Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 66d7f475f4abb6e8ca3fbc942b2697892a3f000b848857a5fd7e9f253f750ab9
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.40/devtron-operator-0.22.40.tgz
+    version: 0.22.40
+  - apiVersion: v2
+    appVersion: 0.6.3
+    created: "2022-10-18T11:40:55.793387561Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 5321f9b35e21f5ab243dccebda773b61a938d9122058a99de146182cd57d6234
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.39/devtron-operator-0.22.39.tgz
+    version: 0.22.39
+  - apiVersion: v2
+    appVersion: 0.6.2
+    created: "2022-10-13T09:43:27.634376216Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 6200e78dcd2c2d0ac67845db50697f829886292f9b69c8cf592a8f55fe30e9fa
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.38/devtron-operator-0.22.38.tgz
+    version: 0.22.38
+  - apiVersion: v2
+    appVersion: 0.6.1
+    created: "2022-10-08T10:30:26.12711249Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.2.0
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: a06f15084fe53a5ae9ac6bb72296ca1735623baceada79898ec98240c43e693f
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.37/devtron-operator-0.22.37.tgz
+    version: 0.22.37
+  - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2022-09-26T06:02:00.761158845Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 4.9.4
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 93e9b18de89bdd2edf40fa606e8ba5976523ec504b5fd13d24751e5828388bf8
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.36/devtron-operator-0.22.36.tgz
+    version: 0.22.36
+  - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2022-09-26T05:54:03.113133766Z"
+    dependencies:
+    - condition: argo-cd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 4.9.4
+    - condition: security.enabled
+      name: security
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 544a4edaa6bb70cf6547a1b908902fb3691cec552e92a16ae4c07325248c9cea
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.35/devtron-operator-0.22.35.tgz
+    version: 0.22.35
+  - apiVersion: v1
+    appVersion: 0.5.2
+    created: "2022-09-09T08:18:33.796054512Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: c4f8d7f815a720033b5d8067ac379dbe3ae73d31fff02359691eda69205b18b8
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.34/devtron-operator-0.22.34.tgz
+    version: 0.22.34
+  - apiVersion: v1
+    appVersion: 0.5.2
+    created: "2022-09-01T13:57:20.71796607Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 6067569d481d93647540306326181f176cfc2257e406b64cc405791b2b357dad
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.33/devtron-operator-0.22.33.tgz
+    version: 0.22.33
+  - apiVersion: v1
+    appVersion: 0.5.1
+    created: "2022-09-01T12:28:48.886558537Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: a995ba19beabe96740f180b5ab21b7202513d6a4b523b09a7b3b5e9317833a32
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.32/devtron-operator-0.22.32.tgz
+    version: 0.22.32
+  - apiVersion: v1
+    appVersion: 0.5.0
+    created: "2022-08-30T16:02:01.20304002Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 71cc57433e063060357d4082f04bda86177fb457e4805fe01309c0a33adfdb06
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.31/devtron-operator-0.22.31.tgz
+    version: 0.22.31
+  - apiVersion: v1
+    appVersion: 0.4.27
+    created: "2022-07-22T11:01:29.77678383Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 5903d6f7fc251bdaddb42ab475c65fd02c2b3a4f11ff38fd0b20ccd1afeb211a
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.30/devtron-operator-0.22.30.tgz
+    version: 0.22.30
+  - apiVersion: v1
+    appVersion: 0.4.26
+    created: "2022-07-21T11:39:43.598034521Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: ea89ed146e76c47c3f2b4e41fb185a3960165f54f5ef8d823cc1b86fddca7ba9
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.29/devtron-operator-0.22.29.tgz
+    version: 0.22.29
+  - apiVersion: v1
+    appVersion: 0.4.25
+    created: "2022-07-19T15:01:48.427790323Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 3d249167dbf431d48eb45b342ec4a05edc3cb5c6b4a1e37152c4c55865a42bbb
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.28/devtron-operator-0.22.28.tgz
+    version: 0.22.28
+  - apiVersion: v1
+    appVersion: 0.4.24
+    created: "2022-07-19T13:24:30.032201303Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 6e1b42c6fbf4b3d5f97060163f5380244b386e56bb735906a592ec02f75e2786
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.27/devtron-operator-0.22.27.tgz
+    version: 0.22.27
+  - apiVersion: v1
+    appVersion: 0.4.23
+    created: "2022-07-08T14:51:04.648239947Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: ba260f15ad05d81e794afd907ec12904651f3cee2a40eb71985cb2c7cc2793ff
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.26/devtron-operator-0.22.26.tgz
+    version: 0.22.26
+  - apiVersion: v1
+    appVersion: 0.4.22
+    created: "2022-07-05T14:47:25.308410485Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 9943e6e3de7fb5f396a347bacd7afe519f2c06adf81f2c05f94db91f3c9a7ba6
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.25/devtron-operator-0.22.25.tgz
+    version: 0.22.25
+  - apiVersion: v1
+    appVersion: 0.4.21
+    created: "2022-07-01T14:59:43.461725542Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 0e542ad51ea123d2862c965bf42f6e7383541d334cc7bd528394ef4214387718
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.24/devtron-operator-0.22.24.tgz
+    version: 0.22.24
+  - apiVersion: v1
+    appVersion: 0.4.20
+    created: "2022-06-30T03:44:02.327798303Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 44922f051aa724916b4e586f76a334a0984f116023deea4e76df1080d912a034
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.23/devtron-operator-0.22.23.tgz
+    version: 0.22.23
+  - apiVersion: v1
+    appVersion: 0.4.19
+    created: "2022-06-27T15:03:26.953663697Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 92c5476c65e9674f4a4d92859f3a177a884cf858e90ec7e9730b77a5c2413647
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.22/devtron-operator-0.22.22.tgz
+    version: 0.22.22
+  - apiVersion: v1
+    appVersion: 0.4.18
+    created: "2022-06-23T13:17:13.906440659Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 3e7132d6e19371f4f2545b46e16dfebfd13553a5fed4f4d7eff8b6173d9ac349
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.21/devtron-operator-0.22.21.tgz
+    version: 0.22.21
+  - apiVersion: v1
+    appVersion: 0.4.17
+    created: "2022-06-22T16:02:23.381584521Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 1c1444e80d515895e408eed03c86cae3d2ace12fb48d17b288ddcef4a6fdb6a3
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.20/devtron-operator-0.22.20.tgz
+    version: 0.22.20
+  - apiVersion: v1
+    appVersion: 0.4.16
+    created: "2022-06-21T10:08:49.628100979Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: b5014d6271589566510a23dfaa006381d44508ce2abc98b616e982a80832feba
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.19/devtron-operator-0.22.19.tgz
+    version: 0.22.19
+  - apiVersion: v1
+    appVersion: 0.4.15
+    created: "2022-06-17T08:04:57.891122159Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 0cfc1603e21c751025aa553ce12f01b390968fd9023c32c87c19601b61a53308
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.18/devtron-operator-0.22.18.tgz
+    version: 0.22.18
+  - apiVersion: v1
+    appVersion: 0.4.14
+    created: "2022-06-14T12:39:30.587706255Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: c095f8e0c7023612e53168592404e148e7b3cbd40141e6a5d3e8b7fe326fdf78
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.17/devtron-operator-0.22.17.tgz
+    version: 0.22.17
+  - apiVersion: v1
+    appVersion: 0.4.13
+    created: "2022-06-13T08:59:59.825654204Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 3b4ae8c9f61dfaca4f5026cb27c4f013ad2e14df40fdc61dbff614cf77bd6787
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.16/devtron-operator-0.22.16.tgz
+    version: 0.22.16
+  - apiVersion: v1
+    appVersion: 0.4.12
+    created: "2022-06-09T15:23:53.826299196Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 80f1b37917ba72047c9bc69be059eaf99c49bbd8fc47b5c538ca72123bac2906
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.15/devtron-operator-0.22.15.tgz
+    version: 0.22.15
+  - apiVersion: v1
+    appVersion: 0.4.11
+    created: "2022-06-08T16:30:43.513249973Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: f137b800bf77bf9b0f84750a99eb83906c1adc469c5f2dab24d1b8dca74b7599
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.14/devtron-operator-0.22.14.tgz
+    version: 0.22.14
+  - apiVersion: v1
+    appVersion: 0.4.10
+    created: "2022-06-06T16:34:35.387257427Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 343fa2c9326eec90b6c542a8db803caa990c21ab4725aefd4d40e2181e3d2921
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.13/devtron-operator-0.22.13.tgz
+    version: 0.22.13
+  - apiVersion: v1
+    appVersion: 0.4.9
+    created: "2022-05-31T09:35:52.301629999Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: d0f9eaf1dc532c65df9115784b3f0a27a5033adabe15c9193297239d4f4fa003
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.12/devtron-operator-0.22.12.tgz
+    version: 0.22.12
+  - apiVersion: v1
+    appVersion: 0.4.8
+    created: "2022-05-30T17:44:57.864021221Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 0f2d19136bcc72b58027f4dd053db30211a969476ff6b080d8704be478624023
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.11/devtron-operator-0.22.11.tgz
+    version: 0.22.11
+  - apiVersion: v1
+    appVersion: 0.4.7
+    created: "2022-05-30T07:05:24.997124672Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 59aabb0cc839992d283f45cdbce0af51803f0e52b8b89b401fce5fbb3915114a
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.10/devtron-operator-0.22.10.tgz
+    version: 0.22.10
+  - apiVersion: v1
+    appVersion: 0.4.6
+    created: "2022-05-27T17:04:36.695585076Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 79b26f31617fbfccc017a79a22c843ca6c843a0155f1efa0d2dad352f2e3708e
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.9/devtron-operator-0.22.9.tgz
+    version: 0.22.9
+  - apiVersion: v1
+    appVersion: 0.4.5
+    created: "2022-05-25T16:47:28.670281647Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 0c02666bfe1dbfb8535f8bc5a416d1e30496b345304ae6e156eae1dcb5d19ac9
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.8/devtron-operator-0.22.8.tgz
+    version: 0.22.8
+  - apiVersion: v1
+    appVersion: 0.4.4
+    created: "2022-05-20T16:49:35.721895381Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: e6a5786eb34c52cc40ee7df05ee9161a128f350f897f03b67ff3b7574b4fbde7
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.7/devtron-operator-0.22.7.tgz
+    version: 0.22.7
+  - apiVersion: v1
+    appVersion: 0.4.3
+    created: "2022-05-19T11:36:19.775342467Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 1ea44d949547d6b2514f418e383034c397f1aa942e9682bbe6deb6ebd34b1788
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.6/devtron-operator-0.22.6.tgz
+    version: 0.22.6
+  - apiVersion: v1
+    appVersion: 0.4.3
+    created: "2022-05-18T14:25:05.954813559Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: c76d25616753b585355ff93652bbb5232ad7129eb07b089063c37cf4acbb5764
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.5/devtron-operator-0.22.5.tgz
+    version: 0.22.5
+  - apiVersion: v1
+    appVersion: 0.4.2
+    created: "2022-05-18T05:06:47.066116986Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 6815dcc53d18ed2dcae879b0d703900f9005e013999d9dc4fb43c9ec22cd8fb3
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.4/devtron-operator-0.22.4.tgz
+    version: 0.22.4
+  - apiVersion: v1
+    appVersion: 0.4.1
+    created: "2022-05-10T13:55:28.886124638Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: d5be62567a6cc4f8ef792d2a82af670d3b8af9c89a78b98a4abcc5c9d5e3dd88
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.3/devtron-operator-0.22.3.tgz
+    version: 0.22.3
+  - apiVersion: v1
+    appVersion: 0.4.0
+    created: "2022-05-02T11:47:34.777882781Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: e973ad7bd3b2401265f46813e86ccb7f18cdd7462d0df912e173e1260e647d4e
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.2/devtron-operator-0.22.2.tgz
+    version: 0.22.2
+  - apiVersion: v1
+    appVersion: 0.4.0
+    created: "2022-05-01T12:32:31.481260387Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: ec920df38559421b2813383f05eef9255931d622bd773d47838953a9b94cf337
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.22.1/devtron-operator-0.22.1.tgz
+    version: 0.22.1
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-04-21T09:50:30.08944538Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: e2ff5bbab6b238ccad2bcda5394050cf276cff32720aa943dae912c38fde295f
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.16/devtron-operator-0.21.16.tgz
+    version: 0.21.16
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-04-15T07:33:51.551539369Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 570c6949c12e1386808ff994c0c7f61f942bd16ee5a2ec3c6d69f5ee41089e1b
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.15/devtron-operator-0.21.15.tgz
+    version: 0.21.15
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-04-13T15:19:19.649974399Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: b99b90c832dbeb6e7ddb0f79d86760ff9aef8c600ec88a351043e1c7b1293de7
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.14/devtron-operator-0.21.14.tgz
+    version: 0.21.14
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-04-07T16:39:06.113175559Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 9c73420f018169aa87e60ab686bf62dbefeaac82a683cfbeb86c1c8579431511
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.13/devtron-operator-0.21.13.tgz
+    version: 0.21.13
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-04-01T17:18:06.887388507Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: b9aaf1268df0215b7e0d15af8f3b6f5ded4a020d01b2bb2bc35dfe450a71fcc4
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.12/devtron-operator-0.21.12.tgz
+    version: 0.21.12
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-03-29T18:52:49.607327836Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: eee9ada05edfd30f3fb7b49a0e1f3765905082bc2c0243980ba890dcd004bdff
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.11/devtron-operator-0.21.11.tgz
+    version: 0.21.11
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-03-25T16:46:30.809777941Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 5260a4a2ef87b517a7f05e1721b3fa012e86a85ecd2e4db3132cd03b2ac141a4
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.10/devtron-operator-0.21.10.tgz
+    version: 0.21.10
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-03-25T13:25:53.140067463Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: c49d8c37a07d7f1b622a91e50b031f057b178f8cfb634fbb10ed0cd3ef53706a
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.9/devtron-operator-0.21.9.tgz
+    version: 0.21.9
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-03-21T13:50:43.430260306Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 77f3e88e7ecb51e051f64e1773d910752da602b8d5b7261680351349e8c3c5db
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.8/devtron-operator-0.21.8.tgz
+    version: 0.21.8
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-03-14T17:43:35.866666059Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: a0ebe20f2cea1e2e66cf8963d99b7a37cc11f2c6435d67441c6a3d7d27bc140b
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.7/devtron-operator-0.21.7.tgz
+    version: 0.21.7
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-03-10T15:51:44.62489262Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 281f6b11b1e4158ce616c8957ab6dbcee460869bbc0f3b3161a1ef422ffe8e60
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.6/devtron-operator-0.21.6.tgz
+    version: 0.21.6
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-03-04T11:44:01.580347605Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 291e0ed96b017a6c9a85a0f079de91efa2295504af0eb0396fcefeb886356441
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.5/devtron-operator-0.21.5.tgz
+    version: 0.21.5
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-02-25T17:01:24.985001296Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 2c583e85ed98c638c76dd06c33ab04b559d7572a2b3a477a773d70bbe51d2dfe
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.4/devtron-operator-0.21.4.tgz
+    version: 0.21.4
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-02-14T11:19:59.520630965Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: f009bcfd3c81e07c9d3b91ea7023460b14020f9aacfc3434c202ea210964ace2
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.3/devtron-operator-0.21.3.tgz
+    version: 0.21.3
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-02-10T11:08:58.561994602Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 54159a6e5880cb98e65eeab29813a64b74bc27b42d215f895785d33dde376123
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.2/devtron-operator-0.21.2.tgz
+    version: 0.21.2
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-02-10T10:33:15.565470369Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 2ae760d745ebc9b4ec364da5d159c258cdab97d3bbf336a6dda98385a85ebf2f
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.1/devtron-operator-0.21.1.tgz
+    version: 0.21.1
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-02-07T18:52:23.390500372Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: bc977f5e2a4d7e88d3024d33c4ff71d8ee314cc84c6661ccd54d5890768faaba
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.21.0/devtron-operator-0.21.0.tgz
+    version: 0.21.0
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-02-07T14:52:37.477949428Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 559e2156b89044c6bcf7bd2b1f7566081495b1f6b6375ab1308f084017b1b160
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.20.2/devtron-operator-0.20.2.tgz
+    version: 0.20.2
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2021-11-21T03:54:09.119319496Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: f17aa57cb0315cf4940c82da9877642ea6542d489afe45e66bddf00cebb436f2
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.20.1/devtron-operator-0.20.1.tgz
+    version: 0.20.1
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2021-11-20T20:25:13.060399005Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: ab44efe995f207b821229f79a87bde698759ee426d961275e06f12bfd0f05056
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.20.0/devtron-operator-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-09-15T04:33:28.08829387Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 285a30337c7a37c20e6cd0fa2379c8af9d7434ad34063a5cccd9e4a67e9702a0
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.11.0/devtron-operator-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-07-21T16:47:33.502054075Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 69db5fd71e7f4b63d1af915633f0840114d3157e065bba5d48b8a201c2129d2a
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.10/devtron-operator-0.10.10.tgz
+    version: 0.10.10
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-07-20T17:43:11.99989985Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 01c2876a6acb9f6094edf3f467ca101db71a3e5a626fd762a5717a37314c8a1a
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.9/devtron-operator-0.10.9.tgz
+    version: 0.10.9
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-07-09T04:44:53.572515397Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 1d5f0fd1435da800a320c0641a31eda2ac422ac2731c3fb79d39e8aea5af3a08
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.8/devtron-operator-0.10.8.tgz
+    version: 0.10.8
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-06-17T05:02:51.994754748Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 870b903a2ada069627a845f2eba56ee35be323b3556fcf0aaad17040660abd73
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.7/devtron-operator-0.10.7.tgz
+    version: 0.10.7
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-06-11T12:04:49.154676698Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: ff606293221dcd571004fc00bc189287923d4d218dff359b6a14f847eede4436
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.6/devtron-operator-0.10.6.tgz
+    version: 0.10.6
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-05-19T10:35:04.729908414Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: eb2ac10e969192ddfac5fdfbe128eeeeaaaa51244912246a163257ab5e0f1c42
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.5/devtron-operator-0.10.5.tgz
+    version: 0.10.5
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-03-24T16:14:59.299440493Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: fab7b595e1177c2ac2e3dcc69c584e81a7ab2dec3ab013237453e37fded3858e
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.4/devtron-operator-0.10.4.tgz
+    version: 0.10.4
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-03-09T11:44:16.305634285Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 98c00ad6f802c936d848c5f2f15538b113fcf2454557bb14c25f48d545530f80
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.3/devtron-operator-0.10.3.tgz
+    version: 0.10.3
+  - apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-02-26T12:22:01.153790632Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: 75b710e134e7589355a5964bbd41b00f7bc013576eca105ceba1e6b9789be09b
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.2/devtron-operator-0.10.2.tgz
+    version: 0.10.2
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-02-18T14:13:27.490828603Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: d88078caa6201392b44497e9d48ca5b44f1eeb7e11fefe4a04978c8f2d1928d2
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.10.1/devtron-operator-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v1
+    appVersion: 0.4.1
+    created: "2022-05-10T12:59:49.124250265Z"
+    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
+      system.
+    digest: d451fe2ee9e3e78bd08394bb66af1c9dd9abe28596619d77aaa0cfcb610449d6
+    home: https://devtron.ai
+    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
+    keywords:
+    - Devtron
+    - Kubernetes
+    - Orchestration
+    - K8s
+    - Deployment
+    - argocd
+    - Hyperion
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: devtron-operator
+    sources:
+    - https://github.com/devtron-labs/charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/devtron-operator-0.4.1/devtron-operator-0.4.1.tgz
+    version: 0.4.1
+  dgraph:
+  - apiVersion: v1
+    appVersion: v21.12.0
+    created: "2022-03-30T12:37:13.060902797Z"
+    description: Dgraph is a horizontally scalable and distributed graph database,
+      providing ACID transactions, consistent replication and linearizable reads.
+    digest: 2cc8312cf32038584532804e1e39e12af04abaafabeb44afd6087f71cbfdd0e1
+    home: https://dgraph.io/
+    icon: https://dgraph.io/assets/images/logo.png
+    keywords:
+    - dgraph
+    - database
+    - Graph
+    - GraphQL
+    - nosql
+    maintainers:
+    - email: contact@dgraph.io
+      name: dgraph
+    name: dgraph
+    sources:
+    - https://github.com/dgraph-io/charts/
+    - https://github.com/dgraph-io/dgraph
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dgraph-0.0.20/dgraph-0.0.20.tgz
+    version: 0.0.20
+  - apiVersion: v1
+    appVersion: v21.12.0
+    created: "2022-01-31T17:22:33.188704619Z"
+    description: Dgraph is a horizontally scalable and distributed graph database,
+      providing ACID transactions, consistent replication and linearizable reads.
+    digest: 33fd091a13f218484edc3abc94c2e0f8aaf46c5d499d9b13e665a1e867ec5393
+    home: https://dgraph.io/
+    icon: https://dgraph.io/assets/images/logo.png
+    keywords:
+    - dgraph
+    - database
+    - Graph
+    - GraphQL
+    - nosql
+    maintainers:
+    - email: contact@dgraph.io
+      name: dgraph
+    name: dgraph
+    sources:
+    - https://github.com/dgraph-io/charts/
+    - https://github.com/dgraph-io/dgraph
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dgraph-0.0.19/dgraph-0.0.19.tgz
+    version: 0.0.19
+  discord-alertmanager:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-05-09T14:46:46.355744388Z"
+    description: Helm chart to deploy webhook integration for sending alert manager
+      alerts on discord.
+    digest: 55b34a7c0ef04c08e3e2af7ad5ec511075dcf00099e9e6f62f954ffce79f7b42
+    maintainers:
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: discord-alertmanager
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/discord-alertmanager-0.10.0/discord-alertmanager-0.10.0.tgz
+    version: 0.10.0
+  dt-kubewatch:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-08-17T05:16:39.154881494Z"
+    description: Chart to deploy Devtron Kubewatch
+    digest: cc50e0499c7015dc275b02510b96d31db314ac94a3dd78a0118caf8e4f3454c7
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-kubewatch
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-kubewatch-0.13.5/dt-kubewatch-0.13.5.tgz
+    version: 0.13.5
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-08-08T13:05:25.809561156Z"
+    description: Chart to deploy Devtron Kubewatch
+    digest: cfb815af52d78688c9d5646b6266b5861a5fbb48e066b7c2041a347a791f8af9
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-kubewatch
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-kubewatch-0.13.4/dt-kubewatch-0.13.4.tgz
+    version: 0.13.4
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-06-23T10:24:53.272363573Z"
+    description: Chart to deploy Devtron Kubewatch
+    digest: e7d6d1fc3adad15ff377aa6751f0beda758e336549cb807671cc59d71e8789e9
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-kubewatch
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-kubewatch-0.13.3/dt-kubewatch-0.13.3.tgz
+    version: 0.13.3
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-05-25T18:10:29.585386843Z"
+    description: Chart to deploy Devtron Kubewatch
+    digest: dfa88071706b1b637a0f10decc7f4977623c9d23c941f786c49afd28c667539a
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-kubewatch
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-kubewatch-0.13.2/dt-kubewatch-0.13.2.tgz
+    version: 0.13.2
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-08-05T05:39:41.92003056Z"
+    description: Chart to deploy Devtron Kubewatch
+    digest: da612ce65d3771cae7a84d0775aa1974807b70579f22063d4a22567482151071
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-kubewatch
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-kubewatch-0.13.1/dt-kubewatch-0.13.1.tgz
+    version: 0.13.1
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-07-23T11:25:24.130218157Z"
+    description: Chart to deploy Devtron Kubewatch
+    digest: 07c363d009ce6e75b6b58e2b996a81feba64bed2e20d96651fe5b6be846b9681
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-kubewatch
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-kubewatch-0.13.0/dt-kubewatch-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-06-14T13:20:18.272861394Z"
+    description: Chart to deploy Devtron Kubewatch
+    digest: 5d73f4b3d8eba61f69394b86fdee73a515d5f7e498e22267c23292f23e0cdc92
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-kubewatch
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-kubewatch-0.12.0/dt-kubewatch-0.12.0.tgz
+    version: 0.12.0
+  dt-secrets:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-01-10T18:33:13.393085636Z"
+    description: Chart to create Secrets
+    digest: e63dd797c1f3af8e6e52194f93a6b8f64a0fa07a2ccd4fba6ec30607eff1de71
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-secrets
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-secrets-0.10.3/dt-secrets-0.10.3.tgz
+    version: 0.10.3
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-12-16T13:40:57.049578654Z"
+    description: Chart to create Secrets
+    digest: 6ae1612294970370c7d5ce2d78db9a8d7cf032e89741c16cde4418c9f0d6c5a3
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-secrets
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-secrets-0.10.2/dt-secrets-0.10.2.tgz
+    version: 0.10.2
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-02-18T12:32:37.655874054Z"
+    description: Chart to create Secrets
+    digest: f0df19d6f774d38089c8a8bf1a6cb403279e9d4c67c4464cbc0efcb8917be98a
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: dt-secrets
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/dt-secrets-0.10.1/dt-secrets-0.10.1.tgz
+    version: 0.10.1
+  elasticsearch-curator:
+  - apiVersion: v2
+    appVersion: 5.8.4
+    created: "2022-06-08T16:53:32.525735501Z"
+    description: A Helm chart for Elasticsearch Curator
+    digest: 6d990ee4e2cd027cdd062a427f5091fb8b0b67f6e6246780d420d380b44083e1
+    home: https://github.com/elastic/curator
+    icon: https://helm.elastic.co/icons/elasticsearch.png
+    keywords:
+    - curator
+    - elasticsearch
+    - elasticsearch-curator
+    name: elasticsearch-curator
+    sources:
+    - https://github.com/bitnami/bitnami-docker-elasticsearch-curator
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/elasticsearch-curator-3.2.2/elasticsearch-curator-3.2.2.tgz
+    version: 3.2.2
+  gitsensor:
+  - apiVersion: v1
+    appVersion: 0.2.0
+    created: "2023-04-19T11:03:41.974383221Z"
+    description: Chart to deploy Devtron Gitsensor
+    digest: fd67ba7bfcd2833a322162dedf7d70311640c450174936139668ae340f6ae660
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: gitsensor
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/gitsensor-0.11.7/gitsensor-0.11.7.tgz
+    version: 0.11.7
+  - apiVersion: v1
+    appVersion: 0.2.0
+    created: "2023-03-07T06:07:00.682298732Z"
+    description: Chart to deploy Devtron Gitsensor
+    digest: 8692ceabb44d216a58f8ec78bbe69fd714228c942837a688ea5cdfec3ada8945
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: gitsensor
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/gitsensor-0.11.6/gitsensor-0.11.6.tgz
+    version: 0.11.6
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-06-23T10:24:53.486648922Z"
+    description: Chart to deploy Devtron Gitsensor
+    digest: 33f47b5339ca8ed2cd4b4361ca88c07cedff14a466aced47ec4157f22a0b4833
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: gitsensor
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/gitsensor-0.11.5/gitsensor-0.11.5.tgz
+    version: 0.11.5
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-03-05T18:29:45.9328561Z"
+    description: Chart to deploy Devtron Gitsensor
+    digest: 7856b30fbc9aa689782fcb44b46851dbdd7de224cecbfb91d8acd5ae880c85bb
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: gitsensor
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/gitsensor-0.11.4/gitsensor-0.11.4.tgz
+    version: 0.11.4
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-09-28T12:15:25.907535639Z"
+    description: Chart to deploy Devtron Gitsensor
+    digest: 41e795944858ad7363f3fc6f84e358ad9cf6c3e4900722b0dac8c1c727aef41a
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: gitsensor
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/gitsensor-0.11.3/gitsensor-0.11.3.tgz
+    version: 0.11.3
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-08-11T07:31:43.422506559Z"
+    description: Chart to deploy Devtron Gitsensor
+    digest: 6b5f787ed99b8cc7777ccc3172e194cccaa2a8252c9540f4ee3a0a3685dfdaca
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: gitsensor
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/gitsensor-0.11.2/gitsensor-0.11.2.tgz
+    version: 0.11.2
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-08-05T15:10:50.57208695Z"
+    description: Chart to deploy Devtron Gitsensor
+    digest: 3fc7a13bf4df21d5e3fa00c351c2ef736acd113327a3e2066982aff5801234f7
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: gitsensor
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/gitsensor-0.11.1/gitsensor-0.11.1.tgz
+    version: 0.11.1
+  knative-installer:
+  - apiVersion: v2
+    created: "2021-06-14T05:45:35.085899302Z"
+    description: Chart to install Knative on the cluster
+    digest: 42773acf42e084f116061b43f788dd2f0a21569a2090808e0c035a01815d1987
+    name: knative-installer
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/knative-installer-0.1.0/knative-installer-0.1.0.tgz
+    version: 0.1.0
+  kube-prometheus-stack:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: 0.50.0
+    created: "2021-12-06T15:44:13.596344002Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://helm.devtron.ai
+      version: 3.5.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 2.0.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.17.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 545f9b2d7e3565778e64fb71e1e53bfd633901b11834c054260a89c8cabd0640
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: vsliouniaev
+    - name: bismarck
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: scott@r6by.com
+      name: scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/kube-prometheus-stack-19.3.0/kube-prometheus-stack-19.3.0.tgz
+    version: 19.3.0
+  kube-state-metrics:
+  - apiVersion: v2
+    appVersion: 2.2.4
+    created: "2021-12-06T15:40:43.961433919Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 1e13c80930bc1085413a17c2dbb792ddad410dfc41e5e23b0474c01bcbdc053a
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/kube-state-metrics-3.5.2/kube-state-metrics-3.5.2.tgz
+    version: 3.5.2
+  mautic:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-01-06T04:54:25.019039848Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://helm.wso2.com
+      version: 1.6.9
+    description: A Helm chart for Mautic
+    digest: e4a65d610b8014841e3feec1007cb26d42a0c73af4b089b89b0302d62b5f6c29
+    name: mautic
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/mautic-0.1.3/mautic-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-12-01T10:43:19.624512277Z"
+    dependencies:
+    - name: mysql
+      repository: https://helm.wso2.com
+      version: 1.6.9
+    description: A Helm chart for Mautic
+    digest: 780aff26fd807164443ddc80b14394494c9836a10b6988ce448bd2521a3c1017
+    name: mautic
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/mautic-0.1.2/mautic-0.1.2.tgz
+    version: 0.1.2
+  migration-incluster-cd:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-04-26T07:51:41.074387811Z"
+    description: Helm chart to enable execute in environment for a target cluster,
+      which is added on devtron UI.
+    digest: b1ead220c7147f33ce9e39a2d79b9770c19613c7a3fc78fed4a1bb9513bea0cb
+    maintainers:
+    - email: devops@devtron.ai
+      name: Devtron Devops Team
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: migration-incluster-cd
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/migration-incluster-cd-0.10.0/migration-incluster-cd-0.10.0.tgz
+    version: 0.10.0
+  nats-server:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-08-05T15:10:50.698323938Z"
+    description: Chart to deploy NATS Server
+    digest: 416b10242b34e221cdf258c62379ab13a589661ce1c4e6781b17dfec1fa7d2a1
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: nats-server
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/nats-server-0.10.1/nats-server-0.10.1.tgz
+    version: 0.10.1
+  nats-streaming:
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2021-08-05T15:10:50.829103782Z"
+    description: A NATS Streaming cluster setup
+    digest: 0beffd8dfd043cf3a15e94d8487c5434ed2f31ed516833105f45cfe46b326836
+    home: https://nats.io/
+    keywords:
+    - NATS
+    - Messaging
+    - publish
+    - subscribe
+    - streaming
+    - cluster
+    - persistence
+    name: nats-streaming
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/nats-streaming-0.3.1/nats-streaming-0.3.1.tgz
+    version: 0.3.1
+  openvpn:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2022-03-30T10:17:00.935511283Z"
+    description: A Helm chart to install an openvpn server inside a kubernetes cluster.  Certificate
+      generation is also part of the deployment, and this chart will generate client
+      keys as needed.
+    digest: cef814ce3e63ebdc6e80a38729c93460a47e4c7f653e9f693b86d13ee11726e0
+    home: https://openvpn.net/index.php/open-source.html
+    icon: https://forums.openvpn.net/styles/openvpn/theme/images/ovpnlogo.png
+    keywords:
+    - openvpn
+    - vpn
+    - tunnel
+    - network
+    - service
+    - connectivity
+    - encryption
+    name: openvpn
+    sources:
+    - https://github.com/jfelten/openvpn-docker
+    - https://github.com/kubernetes/charts/tree/master/stable/openvpn
+    - https://github.com/jfelten/helm-charts
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/openvpn-4.2.5/openvpn-4.2.5.tgz
+    version: 4.2.5
+  prom2teams:
+  - apiVersion: v1
+    appVersion: 4.2.0
+    created: "2022-12-01T09:46:31.308851056Z"
+    description: prom2teams is a service built with Python that receives alert notifications
+      from a previously configured Prometheus Alertmanager instance and forwards it
+      to Microsoft Teams using defined connectors.
+    digest: 0c524467670f87a974bfbff85367820b7d74a1ee52b0537ce294f9815fbcfd79
+    name: prom2teams
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/prom2teams-0.2.0/prom2teams-0.2.0.tgz
+    version: 0.2.0
+  rollout:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-05-24T07:24:02.80308917Z"
+    description: Chart to deploy Rollout
+    digest: e2937f24078e18627f527c5b1607c7be30846fe9e7df5d57290444d600290838
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: rollout
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/rollout-0.14.6/rollout-0.14.6.tgz
+    version: 0.14.6
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-02-22T09:24:10.555361573Z"
+    description: Chart to deploy Rollout
+    digest: 731d8b81789fdae0ab567d88a927cbe6523a38ba985eeb6cd468d9057cb82ffd
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: rollout
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/rollout-0.14.5/rollout-0.14.5.tgz
+    version: 0.14.5
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-06-06T09:37:04.244324553Z"
+    description: Chart to deploy Rollout
+    digest: f64e3ce59c430f3d4444ebeffd4c42ae10efaf02a69214b07dc2a9c61842d19a
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: rollout
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/rollout-0.14.4/rollout-0.14.4.tgz
+    version: 0.14.4
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-05-17T08:28:59.009328425Z"
+    description: Chart to deploy Rollout
+    digest: 7a224ff952382a573604a4fa449a036fa3541fca2d9a2f88ce48050e5d485631
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: rollout
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/rollout-0.14.3/rollout-0.14.3.tgz
+    version: 0.14.3
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-02-25T10:06:59.090059477Z"
+    description: Chart to deploy Rollout
+    digest: 87079305d7a3f3bacdc74e1beafe64eab25dbd6921b5eeda0ad1e650f38591a4
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: rollout
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/rollout-0.14.2/rollout-0.14.2.tgz
+    version: 0.14.2
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-01-08T09:44:01.069331113Z"
+    description: Chart to deploy Rollout
+    digest: 4d6f74fc62716a174b0321022d8e41015a9086556d6880e7f8a999dcbb5ab09b
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: rollout
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/rollout-0.14.0/rollout-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-02-18T12:36:58.121207377Z"
+    description: Chart to deploy Rollout
+    digest: 0f5ff82bd6fea266ca3b7906fd85c9133f9943034169d3d57db8905689b2bbf2
+    maintainers:
+    - email: prakarsh@devtron.ai
+      name: Prakarsh
+    name: rollout
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/rollout-0.13.0/rollout-0.13.0.tgz
+    version: 0.13.0
+  secret-replicator:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-01-10T18:59:09.890030823Z"
+    description: Chart to create Secrets in multiple namespce
+    digest: d54407697d2deaa2a79049e98b9a571be289712b7adc723e579144b53d4cff01
+    maintainers:
+    - email: pawan@devtron.ai
+      name: Pawan
+    name: secret-replicator
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/secret-replicator-0.1.0/secret-replicator-0.1.0.tgz
+    version: 0.1.0
+  security:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2023-03-27T14:36:54.574155907Z"
+    dependencies:
+    - condition: clair.enabled
+      name: clair
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: A Helm chart for devtron to enable security integration
+    digest: bf397f9e533822904f7de671889a8773c4c07f9c4e5b479a2e45e4a365b2d810
+    keywords:
+    - kubernetes
+    - security
+    - k8s
+    - scanning
+    - container registry
+    - image scanning
+    - source code scanning
+    name: security
+    sources:
+    - https://github.com/devtron-labs/charts
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/security-0.1.5/security-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-12-15T07:57:13.985756711Z"
+    dependencies:
+    - condition: clair.enabled
+      name: clair
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: A Helm chart for devtron to enable security integration
+    digest: ab176e57ebfb542b4743d843b811089c20f4ce7e7c3170eef8d0b2fdc4a33316
+    keywords:
+    - kubernetes
+    - security
+    - k8s
+    - scanning
+    - container registry
+    - image scanning
+    - source code scanning
+    name: security
+    sources:
+    - https://github.com/devtron-labs/charts
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/security-0.1.4/security-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-12-01T05:49:04.358919575Z"
+    dependencies:
+    - condition: clair.enabled
+      name: clair
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: A Helm chart for devtron to enable security integration
+    digest: 2d909e300f8957c312e57c3aa99a883a88b1e97aa45de32c6ea8bb067c55bfee
+    keywords:
+    - kubernetes
+    - security
+    - k8s
+    - scanning
+    - container registry
+    - image scanning
+    - source code scanning
+    name: security
+    sources:
+    - https://github.com/devtron-labs/charts
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/security-0.1.3/security-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-11-05T12:53:07.9407651Z"
+    dependencies:
+    - condition: clair.enabled
+      name: clair
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: A Helm chart for devtron to enable security integration
+    digest: baf355103ccbe155edf13ae5e96de208b8032579f96305c64ebd72cc437ca8c9
+    keywords:
+    - kubernetes
+    - security
+    - k8s
+    - scanning
+    - container registry
+    - image scanning
+    - source code scanning
+    name: security
+    sources:
+    - https://github.com/devtron-labs/charts
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/security-0.1.2/security-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-10-13T09:38:44.887530129Z"
+    dependencies:
+    - condition: clair.enabled
+      name: clair
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: A Helm chart for devtron to enable security integration
+    digest: e6c8aeac495a1790f6dd1c267a403af73658f98fe1375a7fa2443f32dfd8bb1f
+    keywords:
+    - kubernetes
+    - security
+    - k8s
+    - scanning
+    - container registry
+    - image scanning
+    - source code scanning
+    name: security
+    sources:
+    - https://github.com/devtron-labs/charts
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/security-0.1.1/security-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-09-24T12:42:46.236608107Z"
+    dependencies:
+    - condition: clair.enabled
+      name: clair
+      repository: https://helm.devtron.ai
+      version: 0.x.x
+    description: A Helm chart for devtron to enable security integration
+    digest: d3b22e74e55ce60d86da59e78a742dacae8c939b0a78ec58b74bf05027dfc375
+    keywords:
+    - kubernetes
+    - security
+    - k8s
+    - scanning
+    - container registry
+    - image scanning
+    - source code scanning
+    name: security
+    sources:
+    - https://github.com/devtron-labs/charts
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/security-0.1.0/security-0.1.0.tgz
+    version: 0.1.0
+  svn-git-sync:
+  - apiVersion: v1
+    appVersion: 0.1.3
+    created: "2022-08-27T07:47:25.240334262Z"
+    description: This chart is used to sync SVN repo with a repo on remote git.
+    digest: 03ea892b647346700f7db51d17c49ca2a7605e48ba1d1ecdee1c35c4ca4b34fa
+    maintainers:
+    - email: pawan.mehta@devtron.ai
+      name: Pawan Kumar
+    name: svn-git-sync
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/svn-git-sync-0.1.3/svn-git-sync-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: 0.1.2
+    created: "2022-08-25T12:52:26.832976953Z"
+    description: This chart is used to sync SVN repo with a repo on remote git.
+    digest: 3f8bca94db3ce4f905a80b4e503be7b3f9ef5e31f33b527ef9c6649a50100468
+    maintainers:
+    - email: pawan.mehta@devtron.ai
+      name: Pawan Kumar
+    name: svn-git-sync
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/svn-git-sync-0.1.2/svn-git-sync-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: 0.1.1
+    created: "2022-06-09T07:37:10.864769964Z"
+    description: This chart is used to sync SVN repo with a repo on remote git.
+    digest: fdaabdf2852c6f35a237760f4e0fd48a7d55ac049245348bd68df21b12046328
+    maintainers:
+    - email: pawan.mehta@devtron.ai
+      name: Pawan Kumar
+    name: svn-git-sync
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/svn-git-sync-0.1.1/svn-git-sync-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-05-23T10:28:43.941507625Z"
+    description: This chart is used to sync SVN repo with a repo on remote git.
+    digest: b6c26f8b04d500a69ad624f6a80c55469f247ef7f277ce72c1968f6058a2a285
+    maintainers:
+    - email: pawan.mehta@devtron.ai
+      name: Pawan Kumar
+    name: svn-git-sync
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/svn-git-sync-0.1.0/svn-git-sync-0.1.0.tgz
+    version: 0.1.0
+  twistlock-defender:
+  - apiVersion: v1
+    created: "2023-04-12T08:50:29.151962489Z"
+    description: Twistlock Defender Daemon Set Helm Chart
+    digest: 1092808997da09bec2b2a55747847610feedb82685f06cf52161671799436589
+    name: twistlock-defender
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/twistlock-defender-22.12.699/twistlock-defender-22.12.699.tgz
+    version: 22.12.699
+  - apiVersion: v1
+    created: "2022-03-09T07:50:07.739766276Z"
+    description: Twistlock Defender Daemon Set Helm Chart
+    digest: 48220668b26f30a1b70569f231e80a7b9537dab3f43be96ccd3c490b525e838d
+    name: twistlock-defender
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/twistlock-defender-22.01.858/twistlock-defender-22.01.858.tgz
+    version: 22.01.858
+  winter-soldier:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-05-29T14:35:35.350744882Z"
+    description: Helm chart to deploy winter-soldier. Winter soldier can be used for
+      scheduled cleaning up of Kubernetes resources and scaledown kubernetes workloads
+      according to user defined time of the day and conditions.
+    digest: 6f7d5b4dae7b23eeade1eee9f4dd7907a7714c545e3e8ab5b5dda6593e18aead
+    maintainers:
+    - email: devops@devtron.ai
+      name: Devtron Devops Team
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: winter-soldier
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/winter-soldier-0.10.5/winter-soldier-0.10.5.tgz
+    version: 0.10.5
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-02-28T10:03:26.078193329Z"
+    description: Helm chart to deploy winter-soldier. Winter soldier can be used for
+      scheduled cleaning up of Kubernetes resources and scaledown kubernetes workloads
+      according to user defined time of the day and conditions.
+    digest: df0864cedd58e5114c6f06b4f526d097d102a42170c276ef1dc70654cb870914
+    maintainers:
+    - email: devops@devtron.ai
+      name: Devtron Devops Team
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: winter-soldier
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/winter-soldier-0.10.4/winter-soldier-0.10.4.tgz
+    version: 0.10.4
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-12-12T14:04:04.360908719Z"
+    description: Helm chart to deploy winter-soldier. Winter soldier can be used for
+      scheduled cleaning up of Kubernetes resources and scaledown kubernetes workloads
+      according to user defined time of the day and conditions.
+    digest: 94ea0c85946911ffe40177121ed9ea4ff81bf96a31334756322c4ba4ac90fdbb
+    maintainers:
+    - email: devops@devtron.ai
+      name: Devtron Devops Team
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: winter-soldier
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/winter-soldier-0.10.3/winter-soldier-0.10.3.tgz
+    version: 0.10.3
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-12-09T13:00:12.44250955Z"
+    description: Helm chart to deploy winter-soldier. Winter soldier can be used for
+      scheduled cleaning up of Kubernetes resources and scaledown kubernetes workloads
+      according to user defined time of the day and conditions.
+    digest: e77ed123e52de016d6142043b6315d57a19130100737ca52d368bd345de6562a
+    maintainers:
+    - email: devops@devtron.ai
+      name: Devtron Devops Team
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: winter-soldier
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/winter-soldier-0.10.2/winter-soldier-0.10.2.tgz
+    version: 0.10.2
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-11-16T13:20:19.06135193Z"
+    description: Helm chart to deploy winter-soldier. Winter soldier can be used for
+      scheduled cleaning up of Kubernetes resources and scaledown kubernetes workloads
+      according to user defined time of the day and conditions.
+    digest: f629c38537c84e320b3d9412b827fe73cc9ae1b10a1b6b93f93848de31922762
+    maintainers:
+    - email: devops@devtron.ai
+      name: Devtron Devops Team
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: winter-soldier
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/winter-soldier-0.10.1/winter-soldier-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-11-14T11:31:31.487328383Z"
+    description: Helm chart to deploy winter-soldier. Winter soldier can be used for
+      scheduled cleaning up of Kubernetes resources and scaledown kubernetes workloads
+      according to user defined time of the day and conditions.
+    digest: 1ec0f69c515c333ce2fcf40ba8bffbb1a0c675abbd09291b0c35c903d718f66b
+    maintainers:
+    - email: devops@devtron.ai
+      name: Devtron Devops Team
+    - email: ajay@devtron.ai
+      name: Ajay
+    name: winter-soldier
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/winter-soldier-0.10.0/winter-soldier-0.10.0.tgz
+    version: 0.10.0
+  zinc:
+  - apiVersion: v2
+    appVersion: v0.2.6
+    created: "2023-03-22T13:04:03.305945915Z"
+    description: Zinc is a search engine that does full text indexing. It is a lightweight
+      alternative to Elasticsearch and runs in less than 100 MB of RAM.
+    digest: 35141a03c179ea571dc181548cfb5bc03a364f99b240a5aae384f4de7c144fa5
+    name: zinc
+    sources:
+    - https://github.com/zinclabs/zinc
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/zinc-0.1.2/zinc-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v0.2.6
+    created: "2023-02-24T06:41:57.517929475Z"
+    description: Zinc is a search engine that does full text indexing. It is a lightweight
+      alternative to Elasticsearch and runs in less than 100 MB of RAM.
+    digest: 8957f357b1f8a98c1699c68994b7a55b7d309a1e19549a4d5d1b7b1894612c62
+    name: zinc
+    sources:
+    - https://github.com/zinclabs/zinc
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/zinc-0.1.1/zinc-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.2.6
+    created: "2023-02-22T09:18:25.649903287Z"
+    description: Zinc is a search engine that does full text indexing. It is a lightweight
+      alternative to Elasticsearch and runs in less than 100 MB of RAM.
+    digest: 9d24b00ad03599a70c0b0dd437391a9a06964ff2097aa317cd6080126f35e5ec
+    name: zinc
+    sources:
+    - https://github.com/zinclabs/zinc
+    type: application
+    urls:
+    - https://github.com/devtron-labs/charts/releases/download/zinc-0.1.0/zinc-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-07-17T08:28:36.235872637Z"

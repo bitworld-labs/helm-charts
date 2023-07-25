@@ -1,8 +1,0 @@
-name: dt-secrets
-appVersion: 0.1.0
-description: Chart to create Secrets
-engine: gotpl
-version: 0.10.3
-maintainers:
-- email: prakarsh@devtron.ai
-  name: Prakarsh
