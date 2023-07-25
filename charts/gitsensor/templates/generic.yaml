@@ -1,0 +1,100 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: git-sensor-service
+  labels:
+    {{- if .Values.gitsensor.service.metadata.labels }}
+{{ toYaml .Values.gitsensor.service.metadata.labels | indent 4 }}
+    {{- end }}
+spec:
+  ports:
+  {{- range $env := .Values.gitsensor.service.spec.ports }}
+    - port: {{ $env.port }}
+      name: {{ $env.name }}
+      targetPort: {{ $env.targetPort }}
+  {{- end }} 
+  selector:
+    {{- if .Values.gitsensor.service.spec.selector }}
+{{ toYaml .Values.gitsensor.service.spec.selector | indent 4 }}
+    {{- end }}
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: git-sensor
+spec:
+  selector:
+    matchLabels:
+      app: {{ .Values.gitsensor.spec.selector.matchLabels.app }} # has to match .spec.template.metadata.labels
+  serviceName: {{ .Values.gitsensor.spec.serviceName }}
+  replicas: {{ .Values.gitsensor.spec.replicas }} # by default is 1
+  template:
+    metadata:
+      labels:
+    {{- if .Values.gitsensor.spec.template.metadata.labels }}
+{{ toYaml .Values.gitsensor.spec.template.metadata.labels | indent 8 }}
+    {{- end }}
+    spec:
+      terminationGracePeriodSeconds: 10
+      {{- if $.Values.podSecurityContext }}
+      securityContext:
+{{ toYaml .Values.podSecurityContext | indent 8 }}
+      {{- end }}
+      containers:
+        - name: git-sensor
+          image: {{ .Values.gitsensor.image.repository }}:{{ .Values.gitsensor.image.tag }}
+          ports:
+          {{- range $env := .Values.gitsensor.containerPort }}
+            - containerPort: {{ $env.port}}
+              name: {{ $env.name }}
+          {{- end }}
+          volumeMounts:
+            - name: git-volume
+              mountPath: /git-base/
+          env:
+          {{- range $key, $val := .Values.gitsensor.envVariables.data }}
+            - name: {{ $key }}
+              value: {{ $val | quote }}
+          {{- end }}
+          {{- with .Values.gitsensor.envFrom }}
+          {{- if or (.configMap) (.secret) }}
+          envFrom:
+          {{- range .configMap }}
+           - configMapRef:
+                name: {{ . }}
+          {{- end }}
+          {{- range .secret }}
+           - secretRef:
+                name: {{ . }}
+          {{- end }}
+          {{- end }} 
+          {{- end }}
+          {{- if $.Values.gitsensor.spec.resources}}
+          resources:
+{{ toYaml .Values.gitsensor.spec.resources | indent 12 -}}
+{{- end}}
+          {{- if .Values.containerSecurityContext }}
+          securityContext:
+{{ toYaml .Values.containerSecurityContext | indent 12 }}
+{{- end }}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+{{- if .Values.gitsensor.spec.affinity }}
+      affinity:
+{{ toYaml .Values.gitsensor.spec.affinity | indent 8 }}
+{{- end }}
+  volumeClaimTemplates:
+    - metadata:
+        name: git-volume
+      spec:
+        accessModes: [ "ReadWriteOnce" ]
+        storageClassName: {{ .Values.gitsensor.storage.class }}
+        resources:
+          requests:
+            storage: {{ .Values.gitsensor.storage.requests }}
+{{ if .Values.gitsensor.storage.nodeAffinity }}
+        nodeAffinity:
+{{ toYaml .Values.gitsensor.storage.nodeAffinity | indent 10 }}
+{{- end }}

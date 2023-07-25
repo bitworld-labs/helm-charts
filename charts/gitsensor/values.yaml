@@ -1,0 +1,108 @@
+gitsensor:
+  envVariables:
+    data:
+      PG_ADDR: postgresql-postgresql.devtroncd
+      PG_PASS: password
+  envFrom:
+    configMap: []
+     #- "test"
+    # - "test2"
+    secret: []
+     # - "Test3"
+     # - "Test4"
+  image:
+    pullPolicy: Always
+    repository: quay.io/devtron/git-sensor
+    tag: 5d527335-200-4349
+  containerPort:
+  - port: 8080
+    name: sensor
+  - port: 8081
+    name: grpc
+  service:
+    metadata:
+      labels:
+        app: git-sensor
+      name: git-sensor-service
+    spec:
+      ports:
+      - port: 80
+        name: sensor
+        targetPort: 8080
+      - port: 90
+        name: grpc
+        targetPort: 8081
+      selector:
+        app: git-sensor
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: git-sensor
+    serviceName: git-sensor
+    resources:
+      limits:
+        cpu: 1
+        memory: 800Mi
+      requests:
+        cpu: 1
+        memory: 500Mi
+    template:
+      metadata:
+        labels:
+          app: git-sensor
+          component: git-sensor
+    affinity: {}
+      # nodeAffinity:
+      #   required:
+      #     nodeSelectorTerms:
+      #     - matchExpressions:
+      #       - key: topology.kubernetes.io/zone
+      #         operator: In
+      #         values:
+      #         - us-east-2a
+      #       - key: topology.kubernetes.io/region
+      #         operator: In
+      #         values:
+      #         - us-east-2
+  storage:
+    class: gp2
+    requests: 2Gi
+    nodeAffinity: {}
+      # required:
+      #   nodeSelectorTerms:
+      #   - matchExpressions:
+      #     - key: topology.kubernetes.io/zone
+      #       operator: In
+      #       values:
+      #       - us-east-2a
+      #     - key: topology.kubernetes.io/region
+      #       operator: In
+      #       values:
+      #       - us-east-2
+servicemonitor:
+  enabled: false
+  labels:
+    app: git-sensor
+    kind: Prometheus
+    release: monitoring
+  path: /metrics
+  port: sensor
+  selectors:
+    app: git-sensor
+tolerations: []
+# - key: "key1"
+#   operator: "Equal"
+#   value: "value1"
+#   effect: "NoSchedule"
+
+podSecurityContext: {}
+  # runAsUser: 1000
+  # runAsGroup: 3000
+  # fsGroup: 2000
+
+containerSecurityContext: {}
+ # allowPrivilegeEscalation: false
+ # Pods Service Account
+ # ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
+

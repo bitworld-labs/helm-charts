@@ -1,1 +1,2 @@
-# helm-charts
+# charts
+BitOps Helm Charts
